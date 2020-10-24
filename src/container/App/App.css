@@ -1,0 +1,45 @@
+header {
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: darkgrey;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    cursor: none;
+}
+
+h1 span {
+    transition: 0.8s;
+}
+
+h1:hover span {
+    text-shadow: 0 0 10px white,
+                 0 0 20px #D9F8FC,
+                 0 0 40px #CFF9FF,
+                 0 0 80px #FFDA72,
+                 0 0 120px white,
+                 0 0 160px white;
+    margin: 10px;
+}
+
+.search-form {
+    text-align: center;
+}
+
+.input-form {
+    width: 142px;
+    height: 30px;
+}
+
+.btn-input-form{
+    width: 150px;
+    height: 30px;
+}
+
+.select-form {
+    width: 150px;
+    height: 30px;
+}

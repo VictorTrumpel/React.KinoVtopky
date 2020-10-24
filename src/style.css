@@ -1,0 +1,14 @@
+body {
+    font-family: Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.scroll-block {overflow-y: scroll;}
+.scroll-block::-webkit-scrollbar-track {border-radius: 4px;}
+.scroll-block::-webkit-scrollbar {width: 6px;}
+.scroll-block::-webkit-scrollbar-thumb {border-radius: 4px; background-color: whitesmoke;}
+.scroll-block:hover::-webkit-scrollbar-thumb {background-color: #6a7d9b;}
